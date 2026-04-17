@@ -187,8 +187,8 @@ h2.title.wh{color:white}
 .price-box{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);border-radius:var(--r-md);padding:16px 20px;display:flex;align-items:center;justify-content:space-between;margin-bottom:20px}
 .price-num{font-family:'Fraunces',serif;font-size:38px;font-weight:900;color:var(--orange);line-height:1}
 .price-num sup{font-size:16px}
-.price-lbl{font-size:11px;color:#64748b;margin-bottom:4px}
-.price-note{font-size:12px;color:#475569;margin-top:3px}
+.price-lbl{font-size:12px;color:#ffffff;margin-bottom:4px;font-weight:600}
+.price-note{font-size:13px;color:#ffffff;margin-top:3px;font-weight:500}
 .badge-avail{background:rgba(249,115,22,.15);border:1px solid rgba(249,115,22,.3);color:#fb923c;font-size:11px;font-weight:700;padding:6px 12px;border-radius:100px}
 
 /* FORM MODAL */
@@ -240,12 +240,13 @@ textarea.form-input{resize:vertical;min-height:80px}
 .team-row p{font-size:13px;color:var(--muted)}
 
 /* CTA */
-.cta-block{background:var(--navy);border-radius:var(--r-xl);padding:80px 64px;text-align:center;max-width:820px;margin:0 auto;position:relative;overflow:hidden}
-.cta-block::before{content:'';position:absolute;top:-100px;left:50%;transform:translateX(-50%);width:500px;height:320px;background:radial-gradient(ellipse,rgba(57,255,20,.08) 0%,transparent 65%)}
-.cta-block h2{color:white;position:relative;margin-bottom:14px}
+.cta-block{background:linear-gradient(135deg,#060d1f 0%,#0c1e3e 40%,#0f2a50 100%);border-radius:var(--r-xl);padding:80px 64px;text-align:center;max-width:820px;margin:0 auto;position:relative;overflow:hidden;border:1px solid rgba(57,255,20,.12)}
+.cta-block::before{content:'';position:absolute;top:-120px;left:50%;transform:translateX(-50%);width:600px;height:400px;background:radial-gradient(ellipse,rgba(57,255,20,.1) 0%,rgba(14,165,233,.06) 40%,transparent 70%)}
+.cta-block::after{content:'';position:absolute;bottom:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(57,255,20,.4),rgba(56,189,248,.4),transparent)}
+.cta-block h2{color:white;position:relative;margin-bottom:14px;text-shadow:0 2px 20px rgba(255,255,255,.1)}
 .cta-block .sub{color:#94a3b8;margin:0 auto 44px;text-align:center;position:relative}
 .cta-actions{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;position:relative}
-.cta-phone{margin-top:22px;font-size:13px;color:#334a6a;position:relative}
+.cta-phone{margin-top:22px;font-size:13px;color:rgba(255,255,255,.35);position:relative}
 
 /* FOOTER */
 footer{background:#060f22;padding:52px 48px 28px;border-top:1px solid rgba(255,255,255,.06)}
@@ -527,9 +528,9 @@ footer{background:#060f22;padding:52px 48px 28px;border-top:1px solid rgba(255,2
           <span class="svc-emoji">🎓</span>
           <span class="svc-num-badge">05</span>
         </div>
-        <h3>Talleres & Capacitaciones</h3>
-        <p>Formación práctica para equipos y emprendedores con estrategias aplicables desde el primer día. Ventas, marketing, <strong>servicio al cliente</strong> y compras públicas.</p>
-        <a class="btn-wa" href="https://wa.me/593999485465?text=Hola%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Talleres%20y%20Capacitaciones" target="_blank">
+        <h3>Talleres de Ventas y Servicio</h3>
+        <p>Formación personalizada de acuerdo al sector de tu empresa. Estrategias aplicables desde el primer día en ventas, servicio al cliente, marketing y más.</p>
+        <a class="btn-wa" href="https://wa.me/593999485465?text=Hola%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Talleres%20de%20Ventas%20y%20Servicio" target="_blank">
           <svg class="wa-ico" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.558 4.121 1.533 5.851L.057 23.476a.5.5 0 00.587.628l5.797-1.522A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.857a9.834 9.834 0 01-5.031-1.378l-.36-.214-3.732.98.997-3.644-.233-.374A9.836 9.836 0 012.143 12C2.143 6.551 6.551 2.143 12 2.143S21.857 6.551 21.857 12 17.449 21.857 12 21.857z"/></svg>
           Quiero Talleres & Capacitaciones
         </a>
@@ -558,14 +559,13 @@ footer{background:#060f22;padding:52px 48px 28px;border-top:1px solid rgba(255,2
             <span class="svc-num-badge" style="background:rgba(251,191,36,.2);color:#fbbf24;border:1px solid rgba(251,191,36,.4)">07</span>
           </div>
           <h3>Energía Renovable · El futuro<br>ya llegó a tu empresa</h3>
-          <p style="max-width:540px;margin-bottom:14px">¿Sabías que tu factura de luz puede ser casi cero? Con nuestros proyectos de energía fotovoltaica, tu empresa deja de regalarle dinero a la eléctrica y empieza a generar ahorro real. Paneles solares de alta eficiencia para tu hogar o empresa, instalación profesional y financiamiento accesible. Una inversión que se paga sola — y después, todo es ganancia.</p>
+          <p style="max-width:540px;margin-bottom:14px">La energía solar es hoy una de las inversiones más inteligentes para hogares y empresas en Ecuador. Nuestro equipo especializado desarrolla proyectos fotovoltaicos a medida, con los permisos y procesos correctos, para que puedas generar tu propia energía limpia de forma segura, eficiente y sostenible. La mejor inversión que puedes hacer para tu hogar o empresa.</p>
           <div class="solar-guarantee">✅ Garantía en durabilidad · Materiales certificados de alta eficiencia</div>
           <div class="solar-features">
             <div class="sol-feat"><span>💡</span><span>Cotiza tu estudio con descuento especial</span></div>
             <div class="sol-feat"><span>🔧</span><span>Instalación certificada</span></div>
-            <div class="sol-feat"><span>💳</span><span>Financiamiento disponible</span></div>
-            <div class="sol-feat"><span>📉</span><span>Hasta 90% menos en tu factura</span></div>
-            <div class="sol-feat"><span>🏠</span><span>Ahorro para tu hogar o empresa</span></div>
+            <div class="sol-feat"><span>📋</span><span>Gestión de permisos incluida</span></div>
+            <div class="sol-feat"><span>🏠</span><span>La mejor inversión para tu hogar o empresa</span></div>
           </div>
           <a class="btn-wa" href="https://wa.me/593999485465?text=Hola%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Energ%C3%ADa%20Solar%20para%20mi%20empresa" target="_blank" style="max-width:360px;background:#fbbf24;color:#0c1e3e;font-size:14px">
             <svg class="wa-ico-dark" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.558 4.121 1.533 5.851L.057 23.476a.5.5 0 00.587.628l5.797-1.522A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.857a9.834 9.834 0 01-5.031-1.378l-.36-.214-3.732.98.997-3.644-.233-.374A9.836 9.836 0 012.143 12C2.143 6.551 6.551 2.143 12 2.143S21.857 6.551 21.857 12 17.449 21.857 12 21.857z"/></svg>
@@ -616,6 +616,22 @@ footer{background:#060f22;padding:52px 48px 28px;border-top:1px solid rgba(255,2
             <div class="t-badge">💡</div>
             <div><h4>Emprendimiento</h4><p>De la idea al negocio: modelo, finanzas básicas y arranque profesional.</p></div>
           </div>
+          <div class="taller-row">
+            <div class="t-badge">🏗️</div>
+            <div>
+              <div class="badge-proceso"><div class="blink"></div>En proceso</div>
+              <h4>Formación Práctica Industrial</h4>
+              <p>Capacitación especializada en procesos operativos, mejora continua y eficiencia en planta para equipos industriales y de producción.</p>
+            </div>
+          </div>
+          <div class="taller-row">
+            <div class="t-badge">⛑️</div>
+            <div>
+              <div class="badge-proceso"><div class="blink"></div>En proceso</div>
+              <h4>Seguridad Industrial</h4>
+              <p>Normas, protocolos y cultura de prevención de riesgos laborales para que tu empresa opere de forma segura, cumpliendo la normativa vigente.</p>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -623,12 +639,12 @@ footer{background:#060f22;padding:52px 48px 28px;border-top:1px solid rgba(255,2
       <div class="conv-card reveal rd1">
         <div class="eyebrow">Conversatorio con experto</div>
         <h3>Cuéntanos tu problema.<br>Nuestro experto te da el camino.</h3>
-        <p class="pitch">¿No sabes por dónde empezar? En una sesión privada de <strong style="color:white">15 a 20 minutos</strong>, uno de nuestros consultores — experto en crecimiento empresarial en Ecuador — escuchará el giro de tu negocio y el problema que lo frena, para identificar la solución exacta que necesitas.</p>
+        <p class="pitch">¿No sabes por dónde empezar? En una sesión privada de <strong style="color:white">20 minutos</strong>, uno de nuestros consultores — experto en crecimiento empresarial en Ecuador — escuchará el giro de tu negocio y el problema que lo frena, para identificar la solución exacta que necesitas.</p>
         <div class="price-box">
           <div>
             <div class="price-lbl">Inversión por sesión</div>
             <div class="price-num"><sup>$</sup>30</div>
-            <div class="price-note">15–20 min · Consultor experto · Resultados concretos</div>
+            <div class="price-note">20 minutos · Consultor experto · Resultados concretos</div>
           </div>
           <div class="badge-avail">¡Agenda hoy!</div>
         </div>
@@ -691,7 +707,7 @@ footer{background:#060f22;padding:52px 48px 28px;border-top:1px solid rgba(255,2
       <h2 class="title wh" style="text-align:center;position:relative">Es momento de llevar tu<br>negocio al siguiente nivel</h2>
       <p class="sub wh" style="text-align:center;margin:0 auto 44px;position:relative">Agenda una asesoría gratuita hoy. Descubramos juntos qué frena tu crecimiento y cómo superarlo rápidamente.</p>
       <div class="cta-actions">
-        <a class="btn-neon" href="https://wa.me/593999485465?text=Hola%2C%20quiero%20agendar%20una%20asesor%C3%ADa%20gratuita" target="_blank">
+        <a class="btn-neon" href="https://wa.me/593999485465?text=Muchas%20gracias%20por%20comunicarte%20con%20Enlace%20Maestro%2C%20tu%20aliado%20estrat%C3%A9gico.%20Cu%C3%A9ntame%2C%20%C2%BFc%C3%B3mo%20te%20puedo%20ayudar%3F" target="_blank">
           <svg viewBox="0 0 24 24" style="width:22px;height:22px;fill:var(--neon);filter:drop-shadow(0 0 6px var(--neon))"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.558 4.121 1.533 5.851L.057 23.476a.5.5 0 00.587.628l5.797-1.522A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.857a9.834 9.834 0 01-5.031-1.378l-.36-.214-3.732.98.997-3.644-.233-.374A9.836 9.836 0 012.143 12C2.143 6.551 6.551 2.143 12 2.143S21.857 6.551 21.857 12 17.449 21.857 12 21.857z"/></svg>
           👉 Escríbenos ahora por WhatsApp
         </a>
@@ -725,6 +741,8 @@ footer{background:#060f22;padding:52px 48px 28px;border-top:1px solid rgba(255,2
         <a href="#talleres">Servicio al Cliente</a>
         <a href="#talleres">Compras Públicas</a>
         <a href="#talleres">Emprendimiento</a>
+        <a href="#talleres">Formación Práctica Industrial</a>
+        <a href="#talleres">Seguridad Industrial</a>
       </div>
       <div class="footer-col">
         <h4>Contacto</h4>
